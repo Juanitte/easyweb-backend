@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EasyWeb.UsersMicroservice.Translations {
+namespace EasyWeb.TicketsMicroservice.Translations {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace EasyWeb.UsersMicroservice.Translations {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Translation_Account {
+    public class Translation_Messages {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Translation_Account() {
+        internal Translation_Messages() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace EasyWeb.UsersMicroservice.Translations {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Tickets.UsersMicroservice.Translations.Translation_Account", typeof(Translation_Account).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Tickets.TicketsMicroservice.Translations.Translation_Messages", typeof(Translation_Messages).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,16 +61,16 @@ namespace EasyWeb.UsersMicroservice.Translations {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Configuration.
+        ///   Busca una cadena traducida similar a Attachment not found.
         /// </summary>
-        public static string CONFIGURATION {
+        public static string Attachment_not_found {
             get {
-                return ResourceManager.GetString("CONFIGURATION", resourceCulture);
+                return ResourceManager.GetString("Attachment_not_found", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a You can reset your password using the following link: .
+        ///   Busca una cadena traducida similar a A technician just sent a message to the following ticket: .
         /// </summary>
         public static string Email_body {
             get {
@@ -79,7 +79,7 @@ namespace EasyWeb.UsersMicroservice.Translations {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Password Reset.
+        ///   Busca una cadena traducida similar a New message.
         /// </summary>
         public static string Email_title {
             get {
@@ -88,20 +88,38 @@ namespace EasyWeb.UsersMicroservice.Translations {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Incorrect password.
+        ///   Busca una cadena traducida similar a Error creating message.
         /// </summary>
-        public static string Incorrect_password {
+        public static string Error_create_message {
             get {
-                return ResourceManager.GetString("Incorrect_password", resourceCulture);
+                return ResourceManager.GetString("Error_create_message", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a User not found.
+        ///   Busca una cadena traducida similar a An error ocurred when trying to save the attachment.
         /// </summary>
-        public static string User_not_found {
+        public static string Error_saving_attachment {
             get {
-                return ResourceManager.GetString("User_not_found", resourceCulture);
+                return ResourceManager.GetString("Error_saving_attachment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Message not found.
+        /// </summary>
+        public static string Message_not_found {
+            get {
+                return ResourceManager.GetString("Message_not_found", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a The message has no attachments.
+        /// </summary>
+        public static string No_attachments {
+            get {
+                return ResourceManager.GetString("No_attachments", resourceCulture);
             }
         }
     }

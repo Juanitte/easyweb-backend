@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EasyWeb.UsersMicroservice.Translations {
+namespace EasyWeb.TicketsMicroservice.Translations {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace EasyWeb.UsersMicroservice.Translations {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Translation_Account {
+    public class Translation_Tickets {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Translation_Account() {
+        internal Translation_Tickets() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace EasyWeb.UsersMicroservice.Translations {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Tickets.UsersMicroservice.Translations.Translation_Account", typeof(Translation_Account).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Tickets.TicketsMicroservice.Translations.Translation_Tickets", typeof(Translation_Tickets).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,16 +61,7 @@ namespace EasyWeb.UsersMicroservice.Translations {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Configuration.
-        /// </summary>
-        public static string CONFIGURATION {
-            get {
-                return ResourceManager.GetString("CONFIGURATION", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a You can reset your password using the following link: .
+        ///   Busca una cadena traducida similar a Hi, dear customer. You can keep tracking of your ticket and communicate with a technician using the following link: .
         /// </summary>
         public static string Email_body {
             get {
@@ -79,7 +70,7 @@ namespace EasyWeb.UsersMicroservice.Translations {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Password Reset.
+        ///   Busca una cadena traducida similar a IoT ticket tracking.
         /// </summary>
         public static string Email_title {
             get {
@@ -88,20 +79,65 @@ namespace EasyWeb.UsersMicroservice.Translations {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Incorrect password.
+        ///   Busca una cadena traducida similar a Couldn&apos;t create ticket.
         /// </summary>
-        public static string Incorrect_password {
+        public static string Error_create_ticket {
             get {
-                return ResourceManager.GetString("Incorrect_password", resourceCulture);
+                return ResourceManager.GetString("Error_create_ticket", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a User not found.
+        ///   Busca una cadena traducida similar a The {0} field couldn&apos;t be filtered by {1}.
         /// </summary>
-        public static string User_not_found {
+        public static string Error_filter {
             get {
-                return ResourceManager.GetString("User_not_found", resourceCulture);
+                return ResourceManager.GetString("Error_filter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Couldn&apos;t obtain the filtered tickets.
+        /// </summary>
+        public static string Error_ticket_filter {
+            get {
+                return ResourceManager.GetString("Error_ticket_filter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Error updating tickets.
+        /// </summary>
+        public static string Error_update {
+            get {
+                return ResourceManager.GetString("Error_update", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a The ticket is already assigned to a technician.
+        /// </summary>
+        public static string Ticket_already_assigned {
+            get {
+                return ResourceManager.GetString("Ticket_already_assigned", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a The ticket has no messages.
+        /// </summary>
+        public static string Ticket_no_messages {
+            get {
+                return ResourceManager.GetString("Ticket_no_messages", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Ticket not found.
+        /// </summary>
+        public static string Ticket_not_found {
+            get {
+                return ResourceManager.GetString("Ticket_not_found", resourceCulture);
             }
         }
     }
