@@ -13,3 +13,8 @@ That's the backend. Developed using:
 - Repositories
 - Units of work
 - Middleware (ocelot)
+
+Developed by Juan Francisco Hermo López (Juanitte)
+Email: juanite.dev@gmail.com
+LinkedIn: https://www.linkedin.com/in/juan-francisco-hermo-l%C3%B3pez-a88320252/
+Youtube: https://www.youtube.com/@Juanite_Dev
