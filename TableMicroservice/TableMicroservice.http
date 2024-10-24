@@ -1,0 +1,6 @@
+@TableMicroservice_HostAddress = http://localhost:5000
+
+GET {{TableMicroservice_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
