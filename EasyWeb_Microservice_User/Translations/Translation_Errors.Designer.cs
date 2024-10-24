@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Tickets.UsersMicroservice.Translations {
+namespace EasyWeb.UsersMicroservice.Translations {
     using System;
     
     
