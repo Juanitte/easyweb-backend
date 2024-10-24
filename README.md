@@ -14,7 +14,7 @@ That's the backend. Developed using:
 - Units of work
 - Middleware (ocelot)
 
-Developed by Juan Francisco Hermo López (Juanitte)
-Email: juanite.dev@gmail.com
-LinkedIn: https://www.linkedin.com/in/juan-francisco-hermo-l%C3%B3pez-a88320252/
+Developed by Juan Francisco Hermo López (Juanitte)\n
+Email: juanite.dev@gmail.com\n
+LinkedIn: https://www.linkedin.com/in/juan-francisco-hermo-l%C3%B3pez-a88320252/\n
 Youtube: https://www.youtube.com/@Juanite_Dev
